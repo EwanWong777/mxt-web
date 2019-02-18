@@ -1,3 +1,4 @@
+/* 顶部 */
 .m-top-container {
     width: 1280px;
     height: 100%;
@@ -52,7 +53,7 @@
     color: #666;
 }
 
-
+/* 导航 */
 .m-navbar {
     height: 54px;
 }
@@ -89,8 +90,9 @@
     background-color: #0091ea;
 }
 
+/* 广告 */
 .m-swiper-slide {
-    height: 480px;
+    height: 400px;
 }
 
 .m-swiper-slide-1 {
@@ -128,6 +130,18 @@
     background-position: center;
 }
 
+/* 优势 */
+.m-advantage {
+    background-color: #f3f3f3;
+}
+
+.m-advantage-container {
+    height: 140px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 内容一 */
 .m-column-1-container {
     width: 1280px;
     margin: 0 auto;
@@ -137,7 +151,7 @@
 .m-column-1-title {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .m-column-1-element-box {
@@ -148,34 +162,82 @@
 .m-column-1-element {
     width: 220px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.m-column-1-element-1 {
+    background: linear-gradient(to top, #FF5252, #D50000)
+}
+
+.m-column-1-element-2 {
+    background: linear-gradient(to top, #448AFF, #2962FF)
+}
+
+.m-column-1-element-3 {
+    background: linear-gradient(to top, #FFAB40, #FF6D00)
+}
+
+.m-column-1-element-4 {
+    background: linear-gradient(to top, #69F0AE, #00C853)
+}
+
+.m-column-1-element-5 {
+    background: linear-gradient(to top, #E040FB, #AA00FF)
 }
 
 .m-column-1-element-title {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 15px;
-    font-weight: bold;
+    color: #fff;
+    /* font-weight: bold; */
 }
 
 .m-column-1-element-body {
     text-align: center;
     line-height: 24px;
-    color: #666;
+    color: #fff;
 }
 
+/* 底部 */
 .m-bottom {
-    background-color: #d5d5d5;
+    background-color: #f3f3f3;
 }
 
 .m-bottom-container {
     padding: 40px 20px;
     margin: 0 auto;
     width: 1280px;
+    display: flex;
+}
+
+.m-contact {
+    flex: 1;
 }
 
 .m-contact>span {
     font-weight: bold;
-    line-height: 18px;
+    line-height: 24px;
+}
+
+.m-copyright {
+    margin-top: 20px;
+    color: #666;
+    font-size: 12px;
+}
+
+.m-qrcode {
+    border: 1px solid #ddd;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.m-qrcode-img>img {
+    width: 106px;
+}
+
+.m-qrcode-text {
+    margin: 30px 10px;
 }
