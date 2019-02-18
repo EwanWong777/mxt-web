@@ -51,6 +51,7 @@ p {
 
 .swiper-pagination-bullet {
     width: 40px;
+    height: 4px;
     border-radius: 0;
 }
 
