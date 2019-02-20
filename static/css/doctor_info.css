@@ -1,0 +1,49 @@
+/* 内容一 */
+.m-column-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+
+.m-column-1-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.m-column-1-doctor {
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.m-column-1-doctor:last-child {
+    margin-bottom: 0;
+}
+
+.m-column-1-doctor-img {
+    width: 280px;
+}
+
+.m-column-1-doctor-img>img {
+    width: 100%;
+}
+
+.m-column-1-doctor-text {
+    flex: 1;
+    margin-left: 40px;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+
+.m-column-1-doctor-text>span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}

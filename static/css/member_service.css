@@ -1,0 +1,56 @@
+/* 内容一 */
+.m-column-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.m-member-card-bar {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.m-member-card {
+    flex: 1;
+    margin: 0 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    height: 150px;
+    color: #fff;
+}
+
+.m-member-card-1 {
+    background-color: #9e9e9e;
+}
+
+.m-member-card-2 {
+    background-color: #8d6e63;
+}
+
+.m-member-card-3 {
+    background-color: #9ccc65;
+}
+
+.m-member-card-4 {
+    background-color: #ffca28;
+}
+
+.m-member-card-5 {
+    background-color: #ff7043;
+}
+
+.m-member-card-6 {
+    background-color: #000000;
+}
+
+.m-member-card>h4 {
+    margin-bottom: 15px;
+}
+
+.m-member-card>p {
+    font-size: 18px;
+    line-height: 30px;
+}

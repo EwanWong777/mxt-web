@@ -1,0 +1,42 @@
+/* 内容一 */
+.m-column-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.m-article-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.m-article-info {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.m-article-info>span:first-child {
+    margin-right: 20px;
+}
+
+.m-article-body {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.m-article-body>p {
+    margin-bottom: 20px;
+}
+
+.m-article-body>img {
+    display: block;
+    max-width: 100%;
+    max-height: 560px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.m-article-body>h4 {
+    margin-bottom: 20px;
+}

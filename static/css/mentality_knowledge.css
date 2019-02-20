@@ -1,0 +1,63 @@
+/* 内容一 */
+.m-column-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.m-knowledge-item {
+    flex: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0 15px;
+    margin-bottom: 40px;
+}
+
+.m-knowledge-item:last-child {
+    margin-bottom: 0;
+}
+
+.m-knowledge-item-img {
+    height: 180px;
+}
+
+.m-knowledge-item-img>img {
+    height: 100%;
+}
+
+.m-knowledge-item-text {
+    margin-left: 20px;
+}
+
+.m-knowledge-item-text>a {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.m-knowledge-item-text>a:hover {
+    color: #0091ea;
+}
+
+.m-knowledge-item-text>p {
+    color: #666;
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.m-knowledge-item-text>h5 {
+    color: #999;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.m-knowledge-item-text>h5>span:first-child {
+    margin-right: 20px;
+}

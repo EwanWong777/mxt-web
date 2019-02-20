@@ -1,0 +1,34 @@
+/* 内容一 */
+.m-column-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.m-company-img {
+    height: 480px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.m-company-img>img {
+    width: 100%;
+}
+
+.m-company-text {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.m-company-text>h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.m-company-text>p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
