@@ -12,6 +12,10 @@
     margin-right: -20px;
 }
 
+.m-member-card-bar:last-child {
+    margin-bottom: 0;
+}
+
 .m-member-card {
     flex: 1;
     margin: 0 20px;
@@ -53,4 +57,37 @@
 .m-member-card>p {
     font-size: 18px;
     line-height: 30px;
+}
+
+.m-doctor-team-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.m-doctor-team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.m-doctor-team-img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.m-doctor-team-img>img {
+    width: 100%;
+}
+
+.m-doctor-team-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.m-doctor-member-card {
+    margin-bottom: 80px;
 }
